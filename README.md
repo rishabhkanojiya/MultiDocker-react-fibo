@@ -18,7 +18,7 @@ Simple React app to calculate Fibonacci of a number
 
 ![Screenshot from 2019-11-02 15-34-18](https://user-images.githubusercontent.com/30200462/68069966-a6132780-fd8d-11e9-8ee0-a7b75f29b943.png)
 
-- The react app is which is deployed on AWS Elastic Beanstalk
+- The react app is deployed on AWS Elastic Beanstalk
 - Worker uses AWS ElastiCache for calculating the fibonacci
 - Express server uses AWS RDS (Postgres) for storing results
 - nginx for routing and deploying 
