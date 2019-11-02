@@ -5,6 +5,11 @@
 
 > A project that runs a Node server and a create-react-app app via two separate containers, using Docker Compose on AWS Elastic Beanstalk.
 
+This app is just to study :
+- Multi container deployment using Docker
+- Continuous integration using Travis CI
+- AWS services like Elastic Beanstalk, ElastiCache, RDS
+
 
 
 ## App
@@ -18,7 +23,7 @@ Simple React app to calculate Fibonacci of a number
 
 ![Screenshot from 2019-11-02 15-34-18](https://user-images.githubusercontent.com/30200462/68069966-a6132780-fd8d-11e9-8ee0-a7b75f29b943.png)
 
-- The react app is deployed on AWS Elastic Beanstalk
+- The react app is which is deployed on AWS Elastic Beanstalk
 - Worker uses AWS ElastiCache for calculating the fibonacci
 - Express server uses AWS RDS (Postgres) for storing results
 - nginx for routing and deploying 
