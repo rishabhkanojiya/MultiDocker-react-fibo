@@ -3,7 +3,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://weather-react-node.herokuapp.com/)
 
-> A project that runs a Node server and a create-react-app app via two separate containers, using Docker Compose on AWS Elastic Beanstalk.
+> A multi-container app deployed on Amazon Web Services using Node, React, Redis and Postgres.
+
 
 This app is just to study :
 - Multi container deployment using Docker
